@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>1920 Inc.</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="js/plugins/stickUp/example/stickup.css" rel="stylesheet"><!-- Stickup CSS -->
+	<link rel="stylesheet" href="js/plugins/FlexSlider/flexslider.css" type="text/css">
+	<link rel="stylesheet" href="js/plugins/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body class="full">
+	<header id="page-header" class="sticky">
+	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="1920 Inc. Logo"></a></div>
+	<nav>
+	<span class="mobile-only hamburger">&#9776;</span>
+		<ul class="desktop-only navigation">
+		<li><strong><a href="aboutus.html">About Us</a></strong></li>
+		<li><strong><a href="howwegetitdone.html">How We Get It Done</a></strong></li>
+	<li><strong><a href="whatwevedone.html">What We've Done</a></strong></li>
+    <li><strong><a href="contact.html">Contact</a></strong></li>
+			</nav>
+	</div>
+	</header>
+<div class="slider_container">
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+    	<div class="crop">
+      <img src="images/bus_slider.png" alt="bus"/>
+  		</div>
+      <p class="slider_description">How We Got Here</p>
+    </li>
+   <li>
+   	<div class="crop">
+      <img src="images/london_slider.png" alt="london"/>
+      <p class="slider_description">Where We've Been</p>
+  </div>
+    </li>
+    <li>
+    	<div class="crop">
+      <img src="images/bridge_slider.png" alt="bridge"/>
+      <p class="slider_description">What We've Crossed</p>
+  </div>
+    </li>
+  </ul>
+</div>
+</div>
+<div class="recentnews">
+	<h1>Recent News<h1>
+</div>
+<div class="wrapper">
+<dix class="featured clear">
+	<div class="featuredone clearfix">
+		<img src="images/newspaper.png" alt="newspaper"/>
+		<p>Read about us in the WSJ</p>
+	</div>	
+	<div class="featuredone">
+		<a class="videoone fancybox.iframe" href="https://www.youtube.com/embed/8QJiAK-s5a0"><img src="images/morningjoe.png" alt="morningjoe"/>			 <p>Watch us on Morning Joe</p></a>
+	</div>
+	<div class="featuredone">
+		<img src="images/award.png" alt="award"/>
+	<p>What award did we win?</p>
+	</div>
+</div>
+</div>
+<div class="emailsignup">
+  <h1>Don't Forget to Sign Up<h1>
+</div>
+<form action="http://sphereconsulting1.createsend.com/t/i/s/julhf/" method="post" id="subForm">
+    <p>
+        <label for="fieldName">Name</label><br />
+        <input id="fieldName" name="cm-name" type="text" />
+    </p>
+    <p>
+        <label for="fieldEmail">Email</label><br />
+        <input id="fieldEmail" name="cm-julhf-julhf" type="email" required />
+    </p>
+    <p>
+        <label for="fieldyuqyh">Title</label><br />
+        <input id="fieldyuqyh" name="cm-f-yuqyh" type="text" />
+    </p>
+    <p>
+        <label for="fieldyuqyk">Organization</label><br />
+        <input id="fieldyuqyk" name="cm-f-yuqyk" type="text" />
+    </p>
+    <p>
+        <label for="fieldyuqyu">Location</label><br />
+        <input id="fieldyuqyu" name="cm-f-yuqyu" type="text" />
+    </p>
+    <p>
+        <label for="fieldyuqjl">Phone</label><br />
+        <input id="fieldyuqjl" name="cm-f-yuqjl" type="text" />
+    </p>
+    <p>
+        <button type="submit">Subscribe</button>
+    </p>
+</form>
+
+<footer id="page-footer">
+		<h1>© 2015 1920 Inc.</h1>
+	<nav>
+		<span class="mobile-only hamburger">&#9776;</span>
+		<ul class="desktop-only navigation">
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="howwegetitdone.html">How We Get It Done</a></li>
+		<li><a href="#">What We've Done</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/plugins/FlexSlider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
+    <!-- ### IMPORTANT ### stickUp javascript file -->
+    <!-- ######################################### --> 
+    <script src="js/plugins/stickUp/stickUp.min.js"></script>
+    <!-- ######################################### -->
+
+    <!-- ### IMPORTANT ### stickUp options in use -->
+    <!-- ######################################## -->
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          $('.navbar-wrapper').stickUp({
+                        parts: {
+                          0:'home',
+                          1:'features',
+                          2: 'updates',
+                          3: 'installation',
+                          4: 'one-pager',
+                          5: 'extras',
+                          6: 'wordpress',
+                          7: 'contact'
+                        },
+                        itemClass: 'menuItem',
+                        itemHover: 'active',
+                        topMargin: 'auto'
+                      });
+        });
+      });
+    </script>
+
+</body>
+
+</html>
